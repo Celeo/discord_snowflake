@@ -1,0 +1,6 @@
+__pycache__
+*.pyc
+.vscode/settings.json
+.pytest_cache
+.coverage
+htmlcov
