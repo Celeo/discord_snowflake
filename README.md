@@ -1,6 +1,6 @@
 # snowflake
 
-[![CI](https://github.com/Celeo/snowflake/workflows/CI/badge.svg?branch=master)](https://github.com/Celeo/snowflake/actions?query=workflow%3ACI)
+[![CI](https://github.com/Celeo/discord_snowflake/workflows/CI/badge.svg?branch=master)](https://github.com/Celeo/discord_snowflake/actions?query=workflow%3ACI)
 [![Python version](https://img.shields.io/badge/Python-3.7+-blue)](https://www.python.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
@@ -30,7 +30,7 @@ TBD
 ### Steps
 
 ```sh
-git clone https://github.com/Celeo/snowflake
+git clone https://github.com/Celeo/discord_snowflake
 cd snowflake
 poetry install
 ```
