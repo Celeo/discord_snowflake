@@ -28,6 +28,6 @@ def test_parse(sample_snowflake, sample_obj):
     assert parsed.increment == sample_obj.increment
 
 
-def test_format():
-    # TODO
-    pass
+def test_format(sample_obj, sample_snowflake):
+    check = sample_obj.format()
+    assert check == sample_snowflake

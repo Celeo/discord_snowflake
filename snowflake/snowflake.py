@@ -32,4 +32,11 @@ class Snowflake:
 
     def format(self) -> str:
         """Format this object into a snowflake string."""
-        pass
+        ts = int(self.timestamp.timestamp() * 1000) - DISCORD_EPOCH
+        ret = (
+            str(int(bin(ts)[2:])).lstrip("0")
+            + bin(self.worker_id)[2:].zfill(5)
+            + bin(self.process_id)[2:].zfill(5)
+            + bin(self.increment)[2:].zfill(12)
+        )
+        return str(int(ret, 2))
